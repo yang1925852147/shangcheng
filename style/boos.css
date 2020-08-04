@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+  /* 弹性盒子 */
+}
+.j-center {
+  justify-content: center;
+  /* y轴居中 */
+}
+.j-around {
+  justify-content: space-around;
+  /* 自适应布局 */
+}
+.j-between {
+  justify-content: space-between;
+  /* 自适应布局 */
+}
+.j-right {
+  justify-content: flex-end;
+  /* 向右 */
+}
+.a-center {
+  align-items: center;
+  /* Z轴居中 */
+}
+.b-r {
+  background-repeat: no-repeat;
+  /* 背景不重复 */
+}
+.b-s-cove {
+  background-size: cover;
+  /* 背景平铺 */
+}
+.b-s-contain {
+  background-size: contain;
+  /* 背景自适应 */
+}
+.f-wrap {
+  flex-wrap: wrap;
+  /* 换行 */
+}
+.o-n {
+  outline: none;
+  /* 取消input的外边框 */
+}
+.b-n {
+  border: none;
+  /* 取消input的内边框 */
+}
+.b-radius {
+  border-radius: 50%;
+  /* 设置圆角 */
+}
+.b {
+  border: 1px solid black;
+  /* 边框 */
+}
+.b-bottom {
+  border-bottom: 1px solid #999;
+}
+/* 下边框 */
+.b-rigth {
+  border-right: 1px solid #999;
+}
+/* 右边框 */
+.p-a {
+  position: absolute;
+  /* 绝对定位 */
+}
+.p-r {
+  position: relative;
+  /* 相对定位 */
+}
+.p-f {
+  position: fixed;
+  /* 固定定位 */
+}
+.txt-c {
+  text-align: center;
+  /* 文本居中 */
+}
+.m-t {
+  margin-top: 20px;
+  /* 外间距上方20px  */
+}
+.padding {
+  padding: 20px;
+  /* 内间距20px */
+}
+.tejia {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 14px;
+  /* 过期价格 */
+}
+.o-v {
+  overflow: hidden;
+  /* 隐藏溢出部分 */
+}
